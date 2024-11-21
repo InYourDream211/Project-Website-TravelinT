@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelinT</title>
+    <link id="title-logo" rel="icon" href="img\LogoProjectTravelinT.png" type="img/s-icon"> 
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+
+<body>
+
+    <!--Slide Main Header Project-->
+    <header class="main-header">
+        <div class="main-logo">
+            <img src="img\LogoProjectTravelinT.png" alt="logo-travelint" width="70">
+        </div>
+
+        <!--Variabel Navigasi-->
+        <nav>
+            <a class="navbar" href="#home">Home</a>
+            <a class="navbar" href="#our-package"> Our Package</a>
+            <a class="navbar" href="#call-us">Call Us</a>
+        </nav>
+    </header>
+
+    <hr />
+
+    <main>
+        <!--Slide Artikel Header-->
+        <main id="home" class="main-article-header">
+            <h1>Welcome to TravelinT</h1> 
+            <h3>Your Trusted Travel Agent's</h3>
+        </main>
+
+        <!--Slide Konten Utama-->
+        <article class="main-article">
+
+            <!--Konten Banner Autoslide-->
+            <section class="container-banner">
+                <div class="banner-autoslide image1"></div>
+                <div class="banner-autoslide image2"></div>
+                <div class="banner-autoslide image3"></div>
+                <div class="banner-autoslide image4"></div>
+                <div class="banner-autoslide image5"></div>
+                <div class="banner-autoslide image6"></div>  
+
+                <p>"Liburan jadi menyenangkan bersama TravelinT."</p>
+            </section>
+
+
+            <!-- Slide Form Contact Us-->
+            <section id="contact" class="contact">
+                <h2>Contact Us</h2>
+                <p>Sales will contact you within 1x24 hours after we receive the data.</p>
+                <form id class="contact-form">
+
+                    <!--Form Untuk Nama-->
+                    <label for="user-name">Your Name</label>
+                    <input id="user-name" placeholder="Full Name" required>
+            
+        
+                    <!--Form Untuk Email-->
+                    <label for="email">Email Address</label>
+                    <input id="email" placeholder="example@email.com" required>
+                    
+
+                    <!--Form Untuk Option Destinasi-->
+                    <label for="destination">What are you interested in?</label>
+                    <select id="destination" required>
+                        <option value="" disabled selected>Select Option</option>
+                        <option value="Bali">Bali</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Bandung">Bandung</option>
+                        <option value="Surabaya">Surabaya</option>
+                        <option value="Third Feature">Third Feature</option>
+                    </select>
+                
+                    <br />
+                    <!--Form Button Untuk Validate JavaScript-->
+                    <button type="button" onclick="validateForm()">SEND</button>
+                </form>
+            </section>
+        </article>
+
+        <hr />
+
+        <!--Slide Our Package-->
+        <article id="our-package">
+            <header class="our-package-header">
+                <h1>Our Package</h1>
+            </header>
+
+            <!--Konten Our Package-->
+            <section class="our-package-content">
+                <div class="container-package-content">
+                    <div class="row-our-content">
+                        <div class="destination-our-package">
+                            <div class="icon-our-content">📍</div>
+                            <div class="info">
+                                <h3>Bali</h3>
+                                <p>"Explore the beauty of Bali, where stunning beaches, rich culture, and vibrant cuisine await you."</p>
+                            </div>
+                        </div>
+                        <div class="destination-our-package">
+                            <div class="icon-our-content">📍</div>
+                            <div class="info">
+                                <h3>Jakarta</h3>
+                                <p>"Discover the vibrant energy of Jakarta, a bustling metropolis filled with diverse culture, shopping, and delicious street food."</p>
+                            </div>
+                        </div>
+                        <div class="destination-our-package">
+                            <div class="icon-our-content">📍</div>
+                            <div class="info">
+                                <h3>Lombok</h3>
+                                <p>"Experience the natural beauty of Lombok, with its pristine beaches, stunning waterfalls, and breathtaking hiking trails."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-our-content">
+                        <div class="destination-our-package">
+                            <div class="icon-our-content">📍</div>
+                            <div class="info">
+                                <h3>Tokyo</h3>
+                                <p>"Shizukana jiin kara nigiyakana toshi made, kodai no dentō to gendai no kakushin ga kanpeki ni yūgō shita Nihon o tansaku shite kudasai."</p>
+                            </div>
+                        </div>
+                        <div class="destination-our-package">
+                            <div class="icon-our-content">📍</div>
+                            <div class="info">
+                                <h3>Paris</h3>
+                                <p>"Découvrez le charme de la France, avec ses monuments emblématiques, sa riche histoire et sa cuisine exquise."</p>
+                            </div>
+                        </div>
+                        <div class="destination-our-package">
+                            <div class="icon-our-content">📍</div>
+                            <div class="info">
+                                <h3>New York</h3>
+                                <p>"Explore the diverse landscapes of the United States, from stunning national parks to vibrant cities full of culture and history."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <hr />
+
+        <!--Slide Call Us-->
+        <article id="call-us" class="main-call-us">
+            <header class="call-us-header">
+                <h1>Call Us</h1>
+            </header>
+
+            <!--Konten Call Us-->
+            <section class="call-us-content">
+                <h3>"Explore the World, Create Unforgettable Memories"</h3>
+                <br />
+                <p>Thank you for visiting TravelinT, your trusted travel partner! We hope your experience with us has inspired your next adventure. At TravelinT, every journey is not just about the destination but the beautiful stories you create along the way.
+                    Wherever your dreams take you, we’re here to make them a reality. See you on your next adventure! 🌍✈️
+                </p>    
+                <h4>TravelinT – Taking You Around the World, One Step at a Time.</h4>
+                <button type="button">CONTACT ME</button>
+            </section>
+        </article>
+    </main>
+
+    <hr />
+
+    <!--Slide Footer-->
+    <footer>
+        <span>TravelinT@2024</span>
+    </footer>
+
+    <!--File JavaScript-->
+    <script src="js/script.js"></script>
+</body>
+</html>

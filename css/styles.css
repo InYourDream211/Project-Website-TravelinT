@@ -1,0 +1,281 @@
+/*Header Konten Utama*/
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Konten Artikel*/
+.main-article {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Container Konten Banner*/
+.container-banner {
+    flex: 1;
+    margin-right: 24px;
+}
+
+/*Konten Logo*/
+.main-logo {
+    height: 75px;
+    width: 75px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+/*Konten Navigasi*/
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: block;
+    color:aliceblue;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #5CB4F6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 600px) {
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-logo {
+    margin-bottom: 14px;
+    }
+
+    .nav {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .main-article {
+        flex-direction: column;
+    }
+
+    .container-banner {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .our-package-content {
+        flex-direction: column;
+    }
+
+    .container-package-content {
+        flex-direction: column;
+    }
+
+    .destination-our-package {
+        flex-direction: column;
+        margin-right: auto;
+    }
+}
+
+/*Konten Artikel Header*/
+.main-article-header {
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+/*Font h1*/
+h1 {
+    color:aliceblue;
+    background-color: #5CB4F6;
+}
+
+/*Konten Header dan Main*/
+header, main {
+    margin: 32px;
+}
+
+/*Konten Banner Autoslide*/
+.banner-autoslide {
+    height: 250px;
+    background-position: center;
+    color: #333;
+    background-size: cover;
+}
+
+.image1 {
+    background-image: url(https://wallpaperaccess.com/full/2873432.jpg) ;
+}
+
+.image2 {
+    background-image: url(https://wallpaperaccess.com/full/1288011.jpg) ;
+}
+
+.image3 {
+    background-image: url(https://wallpaperaccess.com/full/1952533.jpg);
+}
+
+.image4 {
+    background-image: url(https://wallpaperaccess.com/full/4596596.jpg);
+}
+
+.image5 {
+    background-image: url(https://wallpaperaccess.com/full/203323.jpg);
+}
+
+.image6 {
+    background-image: url(https://wallpaperaccess.com/full/104193.jpg);
+}
+
+/*Slide Form Contact Us*/
+.contact {
+    padding: 20px;
+    color:aliceblue;
+    background-color: #5CB4F6;
+    border-top: 1px solid #ddd;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*Label Contact Us*/
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/*Form Input Contact Us*/
+form input,
+form select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid aliceblue;
+    border-radius: 4px;
+}
+
+/*Form Button Contact Us*/
+form button {
+    background-color:  #2585C2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #005c94;
+}
+
+/*Slide Our Package*/
+.our-package-header {
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+/*Konten Our Package*/
+.our-package-content {
+    text-align: center;
+    background-color: #5CB4F6;
+    border: none;
+    border-radius: 4px;
+}
+
+/*Container Our Package Content*/
+.container-package-content{
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Row Our Package Content*/
+.row-our-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/*Destination Our Package Content*/
+.destination-our-package {
+    display: flex;
+    align-items: flex-start;
+    background-color: #FFF; /* Warna putih untuk elemen */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+/*Icon Our Package Content*/
+.icon-our-content {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #000; /* Warna ikon */
+}
+
+/*Info Our Package Content*/
+.info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #000; /* Warna judul */
+}
+
+/*Info p Our Package Content*/
+.info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #444; /* Warna teks deskripsi */
+}
+
+/*Slide Call Us*/
+.call-us-header {
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+/*Konten Call Us*/
+.call-us-content {
+    text-align: center;
+    background-color: #5CB4F6;
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+}
+/*Call Us Button*/
+.call-us-content button {
+    background-color: #2585C2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.call-us-content button:hover {
+    background-color: #005c94;
+}
+
+/*Konten Footer*/
+footer {
+    text-align: center;
+    background-color: #5CB4F6;
+    color: aliceblue;
+    column-span: bold;
+
+}
